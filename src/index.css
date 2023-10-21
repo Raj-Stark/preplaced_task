@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.input{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.list{
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.list-item{
+  width: 5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border: 1px solid #000;
+  cursor: pointer;
+
+}
